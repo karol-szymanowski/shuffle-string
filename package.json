@@ -1,0 +1,44 @@
+{
+  "name": "shuffle-string",
+  "version": "1.0.0",
+  "description": "A module that helps generate not random id's, shorten user names, etc.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run mocha:cover",
+    "lint": "eslint .",
+    "mocha": "mocha",
+    "mocha:cover": "nyc --reporter=lcovonly mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetrash/shuffle-string.git"
+  },
+  "keywords": [
+    "combinatorics",
+    "factorial"
+  ],
+  "author": "Karol Szymanowski <public.szymanowski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tetrash/shuffle-string/issues"
+  },
+  "homepage": "https://github.com/tetrash/shuffle-string#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "husky": "^3.0.1",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run mocha"
+    }
+  }
+}
