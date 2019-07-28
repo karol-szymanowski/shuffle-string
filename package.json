@@ -1,5 +1,5 @@
 {
-  "name": "shuffle-string",
+  "name": "shorten-string",
   "version": "1.0.0",
   "description": "A module that helps generate not random id's, shorten user names, etc.",
   "main": "src/index.js",
