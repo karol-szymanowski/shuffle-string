@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/shuffle-string.svg)](https://www.npmjs.com/package/shuffle-string)
 ![node](https://img.shields.io/node/v/shuffle-string.svg)
-[![Build Status](https://travis-ci.org/tetrash/shuffle-string.svg?branch=master)](https://travis-ci.org/tetrash/shuffle-string)
+[![Build Status](https://travis-ci.com/tetrash/shuffle-string.svg?branch=master)](https://travis-ci.com/tetrash/shuffle-string)
 [![codecov](https://codecov.io/gh/tetrash/shuffle-string/branch/master/graph/badge.svg)](https://codecov.io/gh/tetrash/shuffle-string)
 [![Code Style](https://badgen.net/badge/code%20style/airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript)
 [![License: GPL v3](https://img.shields.io/github/license/tetrash/shuffle-string)](https://github.com/tetrash/shuffle-string/blob/master/LICENSE)
