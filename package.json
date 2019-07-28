@@ -4,7 +4,7 @@
   "description": "A module that helps generate not random id's, shorten user names, etc.",
   "main": "src/index.js",
   "engines": {
-    "node": ">=5.0.0"
+    "node": ">=8.0.0"
   },
   "scripts": {
     "test": "npm run lint && npm run mocha:cover",
